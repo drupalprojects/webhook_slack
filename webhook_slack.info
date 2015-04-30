@@ -1,7 +1,7 @@
 name = Webhook Slack
-description = Example Webhook for creating logging slack messages.
+description = Webhook support for Slack via the Slack entity
 core = 7.x
-package = Features
+package = Webhook
 dependencies[] = ctools
 dependencies[] = webhook
 dependencies[] = slack_entity

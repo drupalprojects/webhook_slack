@@ -32,8 +32,6 @@ function webhook_slack_webhook_processor() {
     ),
   );
 
-      dpm("Ham Module");
-
   return $plugins;
 }
 

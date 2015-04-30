@@ -24,7 +24,7 @@ class Webhook_Slack_Plugins_Processor_SlackHook implements Webhook_Plugins_Proce
    * Processes data.
    */
   public function process(stdClass $data) {
-    
+
     $vars = array(
       'created' => $data->timestamp,
       'team_id' => $data->team_id,
